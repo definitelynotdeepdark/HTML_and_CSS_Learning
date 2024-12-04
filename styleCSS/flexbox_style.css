@@ -1,0 +1,45 @@
+@font-face {
+    font-family:lilita ;
+    src: url(fonts/LilitaOne-Regular.ttf);
+}
+body{
+    background-color: blanchedalmond;
+}
+
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 2em;
+    row-gap: 2em;
+   
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    font-family: lilita,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-shadow: 4px 4px 6px black;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1{
+    background-color: crimson;
+}
+
+#box2{
+    background-color: yellow;
+}
+
+#box3{
+    background-color: green;
+}
+
+#box4{
+    background-color: darkblue;
+}

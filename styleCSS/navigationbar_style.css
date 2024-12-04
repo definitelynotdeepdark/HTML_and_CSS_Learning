@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Jaro;
+    src: url(fonts/Jaro-Regular-VariableFont_opsz.ttf);
+}
+
+body{
+    font-family: jaro;
+    background-color: plum;
+    margin: 0px;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: violet;
+    padding: 0%;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: lime;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: hsl(300, 76%, 65%);
+}
+
+.navbar li{
+    float: left;
+}

@@ -1,0 +1,28 @@
+@font-face {
+    font-family:Jaro;
+    src: url(fonts/Jaro-Regular-VariableFont_opsz.ttf);
+}
+
+body{
+    background-image: url(imagesforcss/BlueNightSky.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.text{
+    font-family: jaro;
+    text-shadow: 5px 5px 6px black;
+    color: white;
+}
+h1{
+    
+    font-weight: bolder;
+
+    font-size: 50px;
+    
+}
+p{
+    font-size: 30px;
+}

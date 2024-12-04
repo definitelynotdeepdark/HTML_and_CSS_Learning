@@ -1,0 +1,43 @@
+body{
+    background-color: lightblue;
+}
+
+.dropdown{
+    display: inline-block;
+}
+
+.dropdown button{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 20px 30px;
+   
+    cursor: pointer;
+}
+
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: deepskyblue;
+    max-width: 100px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.800);
+    
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown:hover button{
+    background-color: hsl(219, 79%, 70%);
+}
+
+.dropdown a:hover{
+    background-color: hsl(195, 100%, 65%);
+}
