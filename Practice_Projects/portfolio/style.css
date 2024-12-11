@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: skyblue;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px black;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+section {
+    margin: 20px;
+}
+
+.project {
+    width: 200px; 
+    height: 200px;
+    border: 3px solid whitesmoke;
+    margin: 10px;
+    display: inline-block; 
+    text-align: center;
+    line-height: 200px; 
+}
+
+h2 {
+    color: darkblue;
+    font-weight: bold;
+    text-shadow: 3px 3px 8px white;
+}
+
+#bio, #skill {
+    background-color: cornflowerblue;
+    padding: 15px;
+}
+
+li{
+    font-size: 18px;
+}
+
+footer {
+    background-color: cornflowerblue;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 8px black;
+    padding: 10px;
+}
