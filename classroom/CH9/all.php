@@ -51,7 +51,7 @@ if ($result->num_rows > 0) {
 		<td>" . $row["firstname"]. "</td>
 		<td>" . $row["lastname"]. "</td>
 		<td>" . $row["email"]. "</td>
-		<td><a href=edit1.php?id=".$row["id"]."</a>Edit</td>
+		<td><a href=edit.php?id=".$row["id"]."</a>Edit</td>
 		<td><a href=deletedata.php?id=".$row["id"]."</a>Delete</td>
 		</tr>";
 	
